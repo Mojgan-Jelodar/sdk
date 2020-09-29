@@ -51,7 +51,7 @@ use the replacement commands
 ```bash
 pod install --repo-update
 ```
-###OR
+### OR
 
 ```bash
 pod repo update
@@ -73,4 +73,18 @@ pod install
                                                     delegate: self)
  self.present(vc, animated: true, completion: nil)
 
+```
+also you can catch up the result of authentication in 3 mode by a AuthenticatorDelegate
+```swift
+    func didFailure(error: Error) {
+        print("Failed by error ::\(error.localizedDescription)")
+    }
+    
+    func didCanceled() {
+        print("Canceled by user!")
+    }
+    
+    func didSuccess() {
+        print("Authentication was successful!")
+    }
 ```
