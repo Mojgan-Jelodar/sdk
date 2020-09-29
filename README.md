@@ -44,6 +44,18 @@ add below line into your target :
 ```bash
 pod 'UID_SEJAM_SDK' 
 ```
+if you encountered with the `error Unable to find a
+
+specification for ...`
+use the replacement commands
+```bash
+pod install --repo-update
+```
+###OR
+
+```bash
+pod repo update
+```
 
 save and close the file...
 go back to terminal and in your project folder run this command
