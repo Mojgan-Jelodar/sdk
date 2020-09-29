@@ -52,7 +52,7 @@ add below line into your target :
 pod install 
 ```
 if you encountered with the 
-- `error Unable to find a specification for ...`
+- ![#f03c15](error Unable to find a specification for ...) `#f03c15`
 use the replacement commands
 ```bash
 pod install --repo-update
