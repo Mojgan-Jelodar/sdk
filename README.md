@@ -51,9 +51,8 @@ add below line into your target :
 ```bash
 pod install 
 ```
-if you encountered with the `error Unable to find a
-
-specification for ...`
+if you encountered with the 
+- `error Unable to find a specification for ...`
 use the replacement commands
 ```bash
 pod install --repo-update
