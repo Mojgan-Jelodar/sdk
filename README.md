@@ -1,10 +1,7 @@
 
 # UID_SEJAM_SDK
 
-UID is a SDK for authentication process.
-
-## Installation
-#UID, a secure digital identity platform
+UID, a secure digital identity platform
 
 UID is an application that allows you to login and register on websites without having a username and password. UID also has an electronic documents wallet that to stores you’re ID cards and lets you share it with the websites of the electronic service providers you wish.
 
@@ -34,6 +31,9 @@ Advantages of using UID:
 - Possible to store and maintain ID cards.
 
 - Access your documents anytime, anywhere.
+
+
+## Installation
 
 ```bash
 cd 'to your project'
